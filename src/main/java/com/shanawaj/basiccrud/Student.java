@@ -11,6 +11,25 @@ package com.shanawaj.basiccrud;
   this.age=age;
   this.marks=marks;
  }
+
+ Student(String name){
+  this.name = name;
+ }
+
+ Student(Integer marks,Integer age){
+  this.marks=marks;
+  this.age=age;
+ }
+
+ int getmarks(){
+   return marks;
+ }
+
+ int getage(){
+  return age;
+ }
+
+
  int getdetails(){
   System.out.println(name+" "+age+" "+marks+" ");
   return 0;
