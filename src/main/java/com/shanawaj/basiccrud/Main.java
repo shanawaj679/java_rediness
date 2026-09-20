@@ -31,6 +31,25 @@ BankAccount b2 = new BankAccount(45244,991230);
  System.out.println(b2.deposit(55500));
  System.out.println(b2.withdraw(172500));
 
+Animal a1 = new Animal("animal eats shit","animal makes sound");
+System.out.println(a1.getdeatils());
+a1.eat();
+a1.sound();
+
+Dog d1 = new Dog("dogs are shit", "dogs bark");
+System.out.println(d1.getdeatils());
+d1.eat();
+d1.sound();
+
+Animal a2 = new Dog("dogs are very good","Dogs bark when they see someone else");
+System.out.println(a2.getdeatils());
+a2.eat();
+a2.sound();
+
+Payment p1 = new Upipayment();
+Payment p2 = new Cardpayment();
+p1.pay();
+p2.pay();
 
     }
 }//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
